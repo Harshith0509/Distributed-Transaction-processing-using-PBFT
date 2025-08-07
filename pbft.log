@@ -1,0 +1,984 @@
+LOG: 2025/08/06 22:06:23 main.go:106: Dispatcher listening on localhost:9000
+LOG: 2025/08/06 22:06:23 main.go:168: request sent from client B to leader localhost:8001 
+LOG: 2025/08/06 22:06:23 main.go:168: request sent from client E to leader localhost:8001 
+LOG: 2025/08/06 22:06:23 main.go:168: request sent from client D to leader localhost:8001 
+LOG: 2025/08/06 22:06:23 main.go:168: request sent from client C to leader localhost:8001 
+LOG: 2025/08/06 22:06:23 main.go:168: request sent from client A to leader localhost:8001 
+LOG: 2025/08/06 22:06:23 pbft.go:879: leader is 0 and transaction is {0 B I 8} and view number is 0 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:23 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:879: leader is 0 and transaction is {0 E F 2} and view number is 0 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:23 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 2
+LOG: 2025/08/06 22:06:23 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 2
+LOG: 2025/08/06 22:06:23 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:23 pbft.go:879: leader is 0 and transaction is {0 C H 6} and view number is 0 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:23 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:827: [startTimer1] Timer1 started/reset for replica 1 in view 0
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:827: [startTimer1] Timer1 started/reset for replica 6 in view 0
+LOG: 2025/08/06 22:06:23 pbft.go:879: leader is 0 and transaction is {0 D G 4} and view number is 0 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:23 pbft.go:879: leader is 0 and transaction is {0 A J 10} and view number is 0 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:827: [startTimer1] Timer1 started/reset for replica 5 in view 0
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 6
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 4
+LOG: 2025/08/06 22:06:23 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:827: [startTimer1] Timer1 started/reset for replica 3 in view 0
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 4
+LOG: 2025/08/06 22:06:23 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:23 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 1
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 5
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 1
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 3
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 1
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 6
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 6
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 5
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 5
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 1
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 6
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 3
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 2
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 1
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 5
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 3
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 3
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 3
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 5
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 6
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 1
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 5
+LOG: 2025/08/06 22:06:23 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:23 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 3
+LOG: 2025/08/06 22:06:23 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 4
+LOG: 2025/08/06 22:06:25 main.go:126: [clientTimer] Timer expired for client B on request 0, broadcasting request
+LOG: 2025/08/06 22:06:25 main.go:126: [clientTimer] Timer expired for client E on request 0, broadcasting request
+LOG: 2025/08/06 22:06:25 main.go:126: [clientTimer] Timer expired for client C on request 0, broadcasting request
+LOG: 2025/08/06 22:06:25 pbft.go:879: leader is 0 and transaction is {0 E F 2} and view number is 0 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:25 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 6
+LOG: 2025/08/06 22:06:25 main.go:126: [clientTimer] Timer expired for client D on request 0, broadcasting request
+LOG: 2025/08/06 22:06:25 main.go:126: [clientTimer] Timer expired for client A on request 0, broadcasting request
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:879: leader is 0 and transaction is {0 B I 8} and view number is 0 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:25 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 6
+LOG: 2025/08/06 22:06:25 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:879: leader is 0 and transaction is {0 C H 6} and view number is 0 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:25 pbft.go:879: leader is 0 and transaction is {0 D G 4} and view number is 0 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:25 pbft.go:879: leader is 0 and transaction is {0 A J 10} and view number is 0 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:25 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:25 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 10
+LOG: 2025/08/06 22:06:25 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 3
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 8
+LOG: 2025/08/06 22:06:25 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:25 pbft.go:146: [PrePrepare] Replica 0 (Primary) received client request for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8001 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8002 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 5
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 6
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 6
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 1
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 6
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 3
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8003 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8004 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8005 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8006 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:170: [PrePrepare] Replica 0 (Primary) sending PrePrepare to port localhost:8007 for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 5
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 1
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 7
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 5
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 3
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 6
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 1
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 10
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 5
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 3
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 6
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 1
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 8
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 5
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 3
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 6
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 9
+LOG: 2025/08/06 22:06:25 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 1
+LOG: 2025/08/06 22:06:25 pbft.go:269: [CollectPrepare] [Byzantine] Leader 0 found not preparing messages for sequence 9
+LOG: 2025/08/06 22:06:26 pbft.go:829: [startTimer1] Timer1 expired for replica 1 in view 0, initiating view change
+LOG: 2025/08/06 22:06:26 pbft.go:829: [startTimer1] Timer1 expired for replica 5 in view 0, initiating view change
+LOG: 2025/08/06 22:06:26 pbft.go:645: [StartViewChange] Replica 1 initiating view change to view 1
+LOG: 2025/08/06 22:06:26 pbft.go:829: [startTimer1] Timer1 expired for replica 6 in view 0, initiating view change
+LOG: 2025/08/06 22:06:26 pbft.go:645: [StartViewChange] Replica 6 initiating view change to view 1
+LOG: 2025/08/06 22:06:26 pbft.go:645: [StartViewChange] Replica 5 initiating view change to view 1
+LOG: 2025/08/06 22:06:26 pbft.go:829: [startTimer1] Timer1 expired for replica 3 in view 0, initiating view change
+LOG: 2025/08/06 22:06:26 pbft.go:645: [StartViewChange] Replica 3 initiating view change to view 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 4 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 4 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 0 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 6 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 0 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 0 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 4 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 5 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 3 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 1 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 5 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 2 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 3 received ViewChange message for view 1 from replica 6
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 1 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 2 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 2 received ViewChange message for view 1 from replica 5
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 3 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 6 received ViewChange message for view 1 from replica 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 5 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 1 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 4 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:704: [HandleViewChange] Replica 1 (primary) received sufficient ViewChange messages for view 1, starting new view
+LOG: 2025/08/06 22:06:26 pbft.go:717: [StartNewView] Replica 1 starting new view 1
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 2 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 0 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:682: [HandleViewChange] Replica 6 received ViewChange message for view 1 from replica 3
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8001
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8002
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 1 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 1 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8003
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8004
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8005
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8006
+LOG: 2025/08/06 22:06:26 pbft.go:772: [StartNewView] Sending NewView message for view 1 to port localhost:8007
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 6 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 5 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 0 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 4 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 3 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:784: [HandleNewView] Replica 2 received NewView message for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 5 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 6 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 3 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 4 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 2 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:26 pbft.go:792: [HandleNewView] Replica 0 accepted NewView for view 1
+LOG: 2025/08/06 22:06:26 pbft.go:799: [HandleNewView] Zero PrePrepare messages to process in view 1
+LOG: 2025/08/06 22:06:27 main.go:126: [clientTimer] Timer expired for client E on request 0, broadcasting request
+LOG: 2025/08/06 22:06:27 pbft.go:879: leader is 1 and transaction is {0 E F 2} and view number is 1 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:27 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 1
+LOG: 2025/08/06 22:06:27 main.go:126: [clientTimer] Timer expired for client B on request 0, broadcasting request
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 1
+LOG: 2025/08/06 22:06:27 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 1
+LOG: 2025/08/06 22:06:27 main.go:126: [clientTimer] Timer expired for client A on request 0, broadcasting request
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:879: leader is 1 and transaction is {0 B I 8} and view number is 1 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 1
+LOG: 2025/08/06 22:06:27 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 2
+LOG: 2025/08/06 22:06:27 main.go:126: [clientTimer] Timer expired for client C on request 0, broadcasting request
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:879: leader is 1 and transaction is {0 A J 10} and view number is 1 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 6
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 1
+LOG: 2025/08/06 22:06:27 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 1 from replica 3
+LOG: 2025/08/06 22:06:27 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:879: leader is 1 and transaction is {0 C H 6} and view number is 1 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:27 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 4
+LOG: 2025/08/06 22:06:27 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 3
+LOG: 2025/08/06 22:06:27 main.go:126: [clientTimer] Timer expired for client D on request 0, broadcasting request
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 4
+LOG: 2025/08/06 22:06:27 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 2
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 3
+LOG: 2025/08/06 22:06:27 pbft.go:879: leader is 1 and transaction is {0 D G 4} and view number is 1 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 6
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 3
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 4
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 6
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 3
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 2 from replica 1
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 6
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 5
+LOG: 2025/08/06 22:06:27 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 3
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 3 from replica 1
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 4 from replica 1
+LOG: 2025/08/06 22:06:27 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 3
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 6
+LOG: 2025/08/06 22:06:27 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 5
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 1
+LOG: 2025/08/06 22:06:27 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 5 from replica 5
+LOG: 2025/08/06 22:06:29 main.go:126: [clientTimer] Timer expired for client E on request 0, broadcasting request
+LOG: 2025/08/06 22:06:29 pbft.go:879: leader is 1 and transaction is {0 E F 2} and view number is 1 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:29 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 6
+LOG: 2025/08/06 22:06:29 main.go:126: [clientTimer] Timer expired for client B on request 0, broadcasting request
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 6
+LOG: 2025/08/06 22:06:29 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:29 main.go:126: [clientTimer] Timer expired for client C on request 0, broadcasting request
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:879: leader is 1 and transaction is {0 B I 8} and view number is 1 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:29 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 6
+LOG: 2025/08/06 22:06:29 main.go:126: [clientTimer] Timer expired for client A on request 0, broadcasting request
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:879: leader is 1 and transaction is {0 A J 10} and view number is 1 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:29 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 8
+LOG: 2025/08/06 22:06:29 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 3
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 6
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:879: leader is 1 and transaction is {0 C H 6} and view number is 1 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 1
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 6 from replica 5
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:29 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 7
+LOG: 2025/08/06 22:06:29 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 9
+LOG: 2025/08/06 22:06:29 main.go:126: [clientTimer] Timer expired for client D on request 0, broadcasting request
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 9
+LOG: 2025/08/06 22:06:29 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 8
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 5
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 6
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 3
+LOG: 2025/08/06 22:06:29 pbft.go:879: leader is 1 and transaction is {0 D G 4} and view number is 1 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:29 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 7 from replica 1
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 5
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 9
+LOG: 2025/08/06 22:06:29 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 9
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 3
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 6
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 8 from replica 1
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 3
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 5
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 6
+LOG: 2025/08/06 22:06:29 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 10
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 9 from replica 1
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 6
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 3
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 5
+LOG: 2025/08/06 22:06:29 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 10 from replica 1
+LOG: 2025/08/06 22:06:31 main.go:126: [clientTimer] Timer expired for client E on request 0, broadcasting request
+LOG: 2025/08/06 22:06:31 pbft.go:879: leader is 1 and transaction is {0 E F 2} and view number is 1 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:31 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 11
+LOG: 2025/08/06 22:06:31 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 main.go:126: [clientTimer] Timer expired for client B on request 0, broadcasting request
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:879: leader is 1 and transaction is {0 B I 8} and view number is 1 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:31 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 11
+LOG: 2025/08/06 22:06:31 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 11
+LOG: 2025/08/06 22:06:31 main.go:126: [clientTimer] Timer expired for client A on request 0, broadcasting request
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 11
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 12
+LOG: 2025/08/06 22:06:31 main.go:126: [clientTimer] Timer expired for client C on request 0, broadcasting request
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 12
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 11 from replica 6
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 11 from replica 5
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 11 from replica 3
+LOG: 2025/08/06 22:06:31 pbft.go:879: leader is 1 and transaction is {0 A J 10} and view number is 1 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:31 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 13
+LOG: 2025/08/06 22:06:31 main.go:126: [clientTimer] Timer expired for client D on request 0, broadcasting request
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 11 from replica 1
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:879: leader is 1 and transaction is {0 C H 6} and view number is 1 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 12 from replica 6
+LOG: 2025/08/06 22:06:31 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 12 from replica 3
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 12 from replica 5
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 12 from replica 1
+LOG: 2025/08/06 22:06:31 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:879: leader is 1 and transaction is {0 D G 4} and view number is 1 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:31 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:31 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 15
+LOG: 2025/08/06 22:06:31 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 13
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 14
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 13 from replica 3
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 13 from replica 6
+LOG: 2025/08/06 22:06:31 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 15
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 13 from replica 5
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 14 from replica 5
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 14 from replica 3
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 14 from replica 6
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 13 from replica 1
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 15 from replica 5
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 15 from replica 6
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 15 from replica 3
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 14 from replica 1
+LOG: 2025/08/06 22:06:31 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 15 from replica 1
+LOG: 2025/08/06 22:06:33 main.go:126: [clientTimer] Timer expired for client E on request 0, broadcasting request
+LOG: 2025/08/06 22:06:33 pbft.go:879: leader is 1 and transaction is {0 E F 2} and view number is 1 and timestamp is 1754532383887728000 
+LOG: 2025/08/06 22:06:33 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 16
+LOG: 2025/08/06 22:06:33 main.go:124: [clientTimer] Timer started/reset for client E for request 0
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 16
+LOG: 2025/08/06 22:06:33 main.go:126: [clientTimer] Timer expired for client B on request 0, broadcasting request
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 16
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 16 from replica 5
+LOG: 2025/08/06 22:06:33 pbft.go:879: leader is 1 and transaction is {0 B I 8} and view number is 1 and timestamp is 1754532383887733000 
+LOG: 2025/08/06 22:06:33 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 16 from replica 1
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 16 from replica 6
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 16 from replica 3
+LOG: 2025/08/06 22:06:33 main.go:124: [clientTimer] Timer started/reset for client B for request 0
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 17
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 17 from replica 1
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 17 from replica 3
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 17 from replica 6
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 17 from replica 5
+LOG: 2025/08/06 22:06:33 main.go:126: [clientTimer] Timer expired for client A on request 0, broadcasting request
+LOG: 2025/08/06 22:06:33 pbft.go:879: leader is 1 and transaction is {0 A J 10} and view number is 1 and timestamp is 1754532383887739000 
+LOG: 2025/08/06 22:06:33 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 18
+LOG: 2025/08/06 22:06:33 main.go:124: [clientTimer] Timer started/reset for client A for request 0
+LOG: 2025/08/06 22:06:33 main.go:126: [clientTimer] Timer expired for client C on request 0, broadcasting request
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:879: leader is 1 and transaction is {0 C H 6} and view number is 1 and timestamp is 1754532383887755000 
+LOG: 2025/08/06 22:06:33 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 18
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 18
+LOG: 2025/08/06 22:06:33 main.go:126: [clientTimer] Timer expired for client D on request 0, broadcasting request
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 18 from replica 3
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 18 from replica 6
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 18 from replica 5
+LOG: 2025/08/06 22:06:33 main.go:124: [clientTimer] Timer started/reset for client C for request 0
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 18 from replica 1
+LOG: 2025/08/06 22:06:33 pbft.go:879: leader is 1 and transaction is {0 D G 4} and view number is 1 and timestamp is 1754532383887762000 
+LOG: 2025/08/06 22:06:33 pbft.go:146: [PrePrepare] Replica 1 (Primary) received client request for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8001 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8002 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8003 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8004 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8005 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8006 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:170: [PrePrepare] Replica 1 (Primary) sending PrePrepare to port localhost:8007 for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 19
+LOG: 2025/08/06 22:06:33 main.go:124: [clientTimer] Timer started/reset for client D for request 0
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 4 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 4 not Preparing messages for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 2 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 6 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 2 not Preparing messages for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 3 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 0 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 5 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:210: [HandlePrePrepare] [Byzantine] Replica 0 not Preparing messages for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 19
+LOG: 2025/08/06 22:06:33 pbft.go:183: [HandlePrePrepare] Replica 1 received PrePrepare for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 5 sending Prepare message for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 3 sending Prepare message for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 6 sending Prepare message for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:246: [HandlePrePrepare] Replica 1 sending Prepare message for sequence 20
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 19 from replica 5
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 19 from replica 6
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 19 from replica 3
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 19 from replica 1
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 20 from replica 6
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 20 from replica 5
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 20 from replica 3
+LOG: 2025/08/06 22:06:33 pbft.go:266: [CollectPrepare] Primary received Prepare for sequence 20 from replica 1
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 1 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 2 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 3 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 4 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 5 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 6 set to inactive
+LOG: 2025/08/06 22:06:35 pbft.go:1054: Server 7 set to inactive
